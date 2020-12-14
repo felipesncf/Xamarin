@@ -11,7 +11,9 @@ C:\Users\felipe\ProjetosGrupoRecursos\Xamarin\ProjetoXamarin\ProjetoXamarin\Proj
 C:\Users\felipe\ProjetosGrupoRecursos\Xamarin\ProjetoXamarin\ProjetoXamarin\ProjetoXamarin\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
 C:\Users\felipe\ProjetosGrupoRecursos\Xamarin\ProjetoXamarin\ProjetoXamarin\ProjetoXamarin\obj\Debug\netstandard2.0\ProjetoXamarin.AssemblyInfoInputs.cache
 C:\Users\felipe\ProjetosGrupoRecursos\Xamarin\ProjetoXamarin\ProjetoXamarin\ProjetoXamarin\obj\Debug\netstandard2.0\ProjetoXamarin.AssemblyInfo.cs
-C:\Users\felipe\ProjetosGrupoRecursos\Xamarin\ProjetoXamarin\ProjetoXamarin\ProjetoXamarin\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\felipe\ProjetosGrupoRecursos\Xamarin\ProjetoXamarin\ProjetoXamarin\ProjetoXamarin\obj\Debug\netstandard2.0\ProjetoXamarin.dll
 C:\Users\felipe\ProjetosGrupoRecursos\Xamarin\ProjetoXamarin\ProjetoXamarin\ProjetoXamarin\obj\Debug\netstandard2.0\ref\ProjetoXamarin.dll
 C:\Users\felipe\ProjetosGrupoRecursos\Xamarin\ProjetoXamarin\ProjetoXamarin\ProjetoXamarin\obj\Debug\netstandard2.0\ProjetoXamarin.pdb
+C:\Users\felipe\ProjetosGrupoRecursos\Xamarin\ProjetoXamarin\ProjetoXamarin\ProjetoXamarin\obj\Debug\netstandard2.0\Views\Camera.xaml.g.cs
+C:\Users\felipe\ProjetosGrupoRecursos\Xamarin\ProjetoXamarin\ProjetoXamarin\ProjetoXamarin\obj\Debug\netstandard2.0\Views\Texto.xaml.g.cs
+C:\Users\felipe\ProjetosGrupoRecursos\Xamarin\ProjetoXamarin\ProjetoXamarin\ProjetoXamarin\obj\Debug\netstandard2.0\XamlC.stamp
