@@ -1,0 +1,17 @@
+C:\Users\felipe\ProjetosGrupoRecursos\Xamarin\ProjetoXamarin\ProjetoXamarin\ProjetoXamarin\bin\Debug\netstandard2.0\ProjetoXamarin.deps.json
+C:\Users\felipe\ProjetosGrupoRecursos\Xamarin\ProjetoXamarin\ProjetoXamarin\ProjetoXamarin\bin\Debug\netstandard2.0\ProjetoXamarin.dll
+C:\Users\felipe\ProjetosGrupoRecursos\Xamarin\ProjetoXamarin\ProjetoXamarin\ProjetoXamarin\bin\Debug\netstandard2.0\ref\ProjetoXamarin.dll
+C:\Users\felipe\ProjetosGrupoRecursos\Xamarin\ProjetoXamarin\ProjetoXamarin\ProjetoXamarin\bin\Debug\netstandard2.0\ProjetoXamarin.pdb
+C:\Users\felipe\ProjetosGrupoRecursos\Xamarin\ProjetoXamarin\ProjetoXamarin\ProjetoXamarin\obj\Debug\netstandard2.0\ProjetoXamarin.csprojAssemblyReference.cache
+C:\Users\felipe\ProjetosGrupoRecursos\Xamarin\ProjetoXamarin\ProjetoXamarin\ProjetoXamarin\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\felipe\ProjetosGrupoRecursos\Xamarin\ProjetoXamarin\ProjetoXamarin\ProjetoXamarin\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\felipe\ProjetosGrupoRecursos\Xamarin\ProjetoXamarin\ProjetoXamarin\ProjetoXamarin\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\felipe\ProjetosGrupoRecursos\Xamarin\ProjetoXamarin\ProjetoXamarin\ProjetoXamarin\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\felipe\ProjetosGrupoRecursos\Xamarin\ProjetoXamarin\ProjetoXamarin\ProjetoXamarin\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\felipe\ProjetosGrupoRecursos\Xamarin\ProjetoXamarin\ProjetoXamarin\ProjetoXamarin\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\felipe\ProjetosGrupoRecursos\Xamarin\ProjetoXamarin\ProjetoXamarin\ProjetoXamarin\obj\Debug\netstandard2.0\ProjetoXamarin.AssemblyInfoInputs.cache
+C:\Users\felipe\ProjetosGrupoRecursos\Xamarin\ProjetoXamarin\ProjetoXamarin\ProjetoXamarin\obj\Debug\netstandard2.0\ProjetoXamarin.AssemblyInfo.cs
+C:\Users\felipe\ProjetosGrupoRecursos\Xamarin\ProjetoXamarin\ProjetoXamarin\ProjetoXamarin\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\felipe\ProjetosGrupoRecursos\Xamarin\ProjetoXamarin\ProjetoXamarin\ProjetoXamarin\obj\Debug\netstandard2.0\ProjetoXamarin.dll
+C:\Users\felipe\ProjetosGrupoRecursos\Xamarin\ProjetoXamarin\ProjetoXamarin\ProjetoXamarin\obj\Debug\netstandard2.0\ref\ProjetoXamarin.dll
+C:\Users\felipe\ProjetosGrupoRecursos\Xamarin\ProjetoXamarin\ProjetoXamarin\ProjetoXamarin\obj\Debug\netstandard2.0\ProjetoXamarin.pdb
