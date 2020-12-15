@@ -56,3 +56,10 @@ C:\Users\felipe\ProjetosGrupoRecursos\Xamarin\ProjetoXamarin\ProjetoXamarin\Proj
 C:\Users\felipe\ProjetosGrupoRecursos\Xamarin\ProjetoXamarin\ProjetoXamarin\ProjetoXamarin.iOS\obj\iPhoneSimulator\Debug\ProjetoXamarin.iOS.csproj.CopyComplete
 C:\Users\felipe\ProjetosGrupoRecursos\Xamarin\ProjetoXamarin\ProjetoXamarin\ProjetoXamarin.iOS\obj\iPhoneSimulator\Debug\ProjetoXamarin.iOS.exe
 C:\Users\felipe\ProjetosGrupoRecursos\Xamarin\ProjetoXamarin\ProjetoXamarin\ProjetoXamarin.iOS\obj\iPhoneSimulator\Debug\ProjetoXamarin.iOS.pdb
+C:\Users\felipe\ProjetosGrupoRecursos\Xamarin\ProjetoXamarin\ProjetoXamarin\ProjetoXamarin.iOS\bin\iPhoneSimulator\Debug\Acr.UserDialogs.dll
+C:\Users\felipe\ProjetosGrupoRecursos\Xamarin\ProjetoXamarin\ProjetoXamarin\ProjetoXamarin.iOS\bin\iPhoneSimulator\Debug\Acr.UserDialogs.pdb
+C:\Users\felipe\ProjetosGrupoRecursos\Xamarin\ProjetoXamarin\ProjetoXamarin\ProjetoXamarin.iOS\bin\iPhoneSimulator\Debug\BTProgressHUD.dll
+C:\Users\felipe\ProjetosGrupoRecursos\Xamarin\ProjetoXamarin\ProjetoXamarin\ProjetoXamarin.iOS\bin\iPhoneSimulator\Debug\BTProgressHUD.pdb
+C:\Users\felipe\ProjetosGrupoRecursos\Xamarin\ProjetoXamarin\ProjetoXamarin\ProjetoXamarin.iOS\bin\iPhoneSimulator\Debug\Newtonsoft.Json.dll
+C:\Users\felipe\ProjetosGrupoRecursos\Xamarin\ProjetoXamarin\ProjetoXamarin\ProjetoXamarin.iOS\bin\iPhoneSimulator\Debug\Plugin.Media.dll
+C:\Users\felipe\ProjetosGrupoRecursos\Xamarin\ProjetoXamarin\ProjetoXamarin\ProjetoXamarin.iOS\bin\iPhoneSimulator\Debug\Plugin.Media.pdb

@@ -1,6 +1,4 @@
-﻿using System;
-
-using ProjetoXamarin.Models;
+﻿using ProjetoXamarin.Models;
 
 namespace ProjetoXamarin.ViewModels
 {

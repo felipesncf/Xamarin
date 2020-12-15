@@ -1,5 +1,8 @@
-﻿using Plugin.Media;
+﻿using Acr.UserDialogs;
+using Plugin.Media;
 using Plugin.Media.Abstractions;
+using ProjetoXamarin.Models;
+using ProjetoXamarin.Services.Http;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,7 +22,15 @@ namespace ProjetoXamarin.Views
             InitializeComponent();
         }
 
-        public async void OpenCamera(object obj, EventArgs e)
+        public void GetMedia(object obj, EventArgs e)
+        {
+            var actionSheetConfig = new ActionSheetConfig().SetTitle("Selecione um método").SetUseBottomSheet(true).SetCancel("Cancelar");
+            actionSheetConfig.Add("Tirar Foto", new Action(() => { OpenCamera(); }), "camera.png");
+            actionSheetConfig.Add("Selecionar uma imagem", new Action(() => { Galeria(); }), "camera.png");
+            UserDialogs.Instance.ActionSheet(actionSheetConfig);
+        }
+
+        public async void OpenCamera()
         {
             try
             {
@@ -54,7 +65,7 @@ namespace ProjetoXamarin.Views
                 throw ex;
             }
         }
-        public async void btnSelecionarImagem_Clicked(object obj, EventArgs e)
+        public async void Galeria()
         {
             if (CrossMedia.Current.IsTakePhotoSupported)
             {
@@ -71,9 +82,16 @@ namespace ProjetoXamarin.Views
             }
         }
 
+        public void OptionsImage(object obj, EventArgs e)
+        {
+            var actionSheetConfig = new ActionSheetConfig().SetTitle("Selecione uma opção").SetUseBottomSheet(true).SetCancel("Cancelar");
+            actionSheetConfig.Add("Remover Foto", new Action(() => { imgFoto.Source = null; }));
+            UserDialogs.Instance.ActionSheet(actionSheetConfig);
+        }
+
         public async void GoToTextoPage(object obj, EventArgs e)
         {
-            await Navigation.PushModalAsync(new NavigationPage(new Texto()));
+            await Navigation.PushModalAsync(new NavigationPage(new MoedaPage()));
         }
     }
 }

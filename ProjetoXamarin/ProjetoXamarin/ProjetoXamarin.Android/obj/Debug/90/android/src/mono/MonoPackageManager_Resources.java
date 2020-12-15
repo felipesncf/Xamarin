@@ -3,7 +3,10 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "ProjetoXamarin.Android.dll" comes first in this list. */
 		"ProjetoXamarin.Android.dll",
+		"Acr.UserDialogs.dll",
+		"AndHUD.dll",
 		"FormsViewGroup.dll",
+		"Newtonsoft.Json.dll",
 		"Plugin.Media.dll",
 		"ProjetoXamarin.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",

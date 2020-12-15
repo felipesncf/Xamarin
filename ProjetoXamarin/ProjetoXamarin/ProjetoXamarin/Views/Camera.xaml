@@ -8,10 +8,9 @@
              Title="Câmera">
     <ScrollView>
         <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand">
-            <Image x:Name="imgFoto"/>
-            <Button Text="Tirar Foto" Clicked="OpenCamera"/>
-            <Button x:Name="btnSelecionarImagem" Text="Selecionar uma imagem" Clicked="btnSelecionarImagem_Clicked"/>
-            <Button Text="Texto Page"
+            <ImageButton Clicked="OptionsImage" x:Name="imgFoto"/>
+            <Button Text="Mídia" Clicked="GetMedia"/>
+            <Button Text="Moeda Page"
                 Clicked="GoToTextoPage"/>
         </StackLayout>
     </ScrollView>
