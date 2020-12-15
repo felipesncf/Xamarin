@@ -1,12 +1,9 @@
 ﻿using ProjetoXamarin.Models;
 using ProjetoXamarin.ViewModels;
 using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+using System.Text.RegularExpressions;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -16,10 +13,12 @@ namespace ProjetoXamarin.Views
     public partial class MoedaPage : ContentPage
     {
         MoedaViewModel viewModel;
+        ObservableCollection<Cambio> cambios = new ObservableCollection<Cambio>();
         public MoedaPage()
         {
             InitializeComponent();
             BindingContext = viewModel = new MoedaViewModel();
+            cambios = viewModel.Cambios;
         }
 
         public async void CancelButton(object obj, EventArgs e)
@@ -36,7 +35,21 @@ namespace ProjetoXamarin.Views
             await Navigation.PushAsync(new MoedaDetailPage(new MoedaDetailViewModel(item)));
 
             // Manually deselect item.
-            ItemsListView.SelectedItem = null;
+            MoedasListView.SelectedItem = null;
+        }
+
+        public void FilterFunction(object sender, TextChangedEventArgs args)
+        {
+            var texto = SearchBarMoeda.Text.Replace(".", "").Replace(".", "");
+            bool isNumber = Regex.IsMatch(texto, @"^\d{9}$");
+            if (texto.All(char.IsDigit))
+            {
+                MoedasListView.ItemsSource = cambios.Where(x => x.Valor.ToString().Replace(".", "").Replace(".", "").Contains(texto));
+            }
+            else
+            {
+                MoedasListView.ItemsSource = cambios.Where(x => x.Sigla.ToLower().Contains(texto.ToLower()));
+            }
         }
     }
 }

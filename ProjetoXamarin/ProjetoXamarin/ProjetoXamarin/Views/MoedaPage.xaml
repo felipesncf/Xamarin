@@ -13,7 +13,8 @@
     </ContentPage.ToolbarItems>
 
     <StackLayout>
-        <ListView x:Name="ItemsListView"
+        <SearchBar TextChanged="FilterFunction" x:Name="SearchBarMoeda"/>
+        <ListView x:Name="MoedasListView"
                 ItemsSource="{Binding Cambios}"
                 VerticalOptions="FillAndExpand"
                 HasUnevenRows="true"
