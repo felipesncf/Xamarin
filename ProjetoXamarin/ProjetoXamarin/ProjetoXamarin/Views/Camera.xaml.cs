@@ -93,5 +93,13 @@ namespace ProjetoXamarin.Views
         {
             await Navigation.PushModalAsync(new NavigationPage(new MoedaPage()));
         }
+        public async void GoToFormPage(object obj, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new NavigationPage(new Formulario()));
+        }
+        public async void GoToLocalizacaoPage(object obj, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new NavigationPage(new Localizacao()));
+        }
     }
 }

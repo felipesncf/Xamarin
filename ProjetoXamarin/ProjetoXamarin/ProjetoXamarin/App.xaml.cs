@@ -12,9 +12,12 @@ namespace ProjetoXamarin
         public App()
         {
             InitializeComponent();
-
             DependencyService.Register<MockDataStore>();
             MainPage = new AppShell();
+
+#if DEBUG
+            HotReloader.Current.Run(this);
+#endif
         }
 
         protected override void OnStart()

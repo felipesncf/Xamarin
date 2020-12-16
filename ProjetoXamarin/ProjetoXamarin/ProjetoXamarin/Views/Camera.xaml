@@ -5,13 +5,14 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="ProjetoXamarin.Views.Camera"
-             Title="Câmera">
+             Title="Testes">
     <ScrollView>
         <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand">
             <ImageButton Clicked="OptionsImage" x:Name="imgFoto"/>
             <Button Text="Mídia" Clicked="GetMedia"/>
-            <Button Text="Moeda Page"
-                Clicked="GoToTextoPage"/>
+            <Button Text="Moeda Page" Clicked="GoToTextoPage"/>
+            <Button Text="Formulário Page" Clicked="GoToFormPage"/>
+            <Button Text="Localização Page" Clicked="GoToLocalizacaoPage"/>
         </StackLayout>
     </ScrollView>
 </ContentPage>

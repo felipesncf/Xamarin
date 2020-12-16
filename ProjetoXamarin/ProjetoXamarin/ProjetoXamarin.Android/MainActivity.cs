@@ -7,6 +7,7 @@ using Android.Widget;
 using Android.OS;
 using Plugin.Media;
 using Acr.UserDialogs;
+using Android;
 
 namespace ProjetoXamarin.Droid
 {
@@ -21,7 +22,11 @@ namespace ProjetoXamarin.Droid
             base.OnCreate(savedInstanceState);
 
             await CrossMedia.Current.Initialize();
-
+            if (CheckSelfPermission(Manifest.Permission.AccessCoarseLocation) != (int)Permission.Granted)
+            {
+                RequestPermissions(new string[] { Manifest.Permission.AccessCoarseLocation, Manifest.Permission.AccessFineLocation }, 0);
+            }
+            Xamarin.FormsGoogleMaps.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.SetFlags("CollectionView_Experimental");
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);

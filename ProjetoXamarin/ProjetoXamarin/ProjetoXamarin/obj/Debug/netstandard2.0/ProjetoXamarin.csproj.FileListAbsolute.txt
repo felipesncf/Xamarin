@@ -15,6 +15,9 @@ C:\Users\felipe\ProjetosGrupoRecursos\Xamarin\ProjetoXamarin\ProjetoXamarin\Proj
 C:\Users\felipe\ProjetosGrupoRecursos\Xamarin\ProjetoXamarin\ProjetoXamarin\ProjetoXamarin\obj\Debug\netstandard2.0\ref\ProjetoXamarin.dll
 C:\Users\felipe\ProjetosGrupoRecursos\Xamarin\ProjetoXamarin\ProjetoXamarin\ProjetoXamarin\obj\Debug\netstandard2.0\ProjetoXamarin.pdb
 C:\Users\felipe\ProjetosGrupoRecursos\Xamarin\ProjetoXamarin\ProjetoXamarin\ProjetoXamarin\obj\Debug\netstandard2.0\Views\Camera.xaml.g.cs
-C:\Users\felipe\ProjetosGrupoRecursos\Xamarin\ProjetoXamarin\ProjetoXamarin\ProjetoXamarin\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\felipe\ProjetosGrupoRecursos\Xamarin\ProjetoXamarin\ProjetoXamarin\ProjetoXamarin\obj\Debug\netstandard2.0\Views\MoedaPage.xaml.g.cs
 C:\Users\felipe\ProjetosGrupoRecursos\Xamarin\ProjetoXamarin\ProjetoXamarin\ProjetoXamarin\obj\Debug\netstandard2.0\Views\MoedaDetailPage.xaml.g.cs
+C:\Users\felipe\ProjetosGrupoRecursos\Xamarin\ProjetoXamarin\ProjetoXamarin\ProjetoXamarin\obj\Debug\netstandard2.0\Views\Formulario.xaml.g.cs
+C:\Users\felipe\ProjetosGrupoRecursos\Xamarin\ProjetoXamarin\ProjetoXamarin\ProjetoXamarin\obj\Debug\netstandard2.0\Views\Localizacao.xaml.g.cs
+C:\Users\felipe\ProjetosGrupoRecursos\Xamarin\ProjetoXamarin\ProjetoXamarin\ProjetoXamarin\obj\Debug\netstandard2.0\Views\Mapa.xaml.g.cs
+C:\Users\felipe\ProjetosGrupoRecursos\Xamarin\ProjetoXamarin\ProjetoXamarin\ProjetoXamarin\obj\Debug\netstandard2.0\XamlC.stamp
